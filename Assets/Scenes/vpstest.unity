@@ -248,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 43741278}
-  objectPreFab: {fileID: 5501147766696905208, guid: d82adb83056b79b4cb89da16c0f2fa18,
+  objectPrefab: {fileID: 5501147766696905208, guid: d82adb83056b79b4cb89da16c0f2fa18,
     type: 3}
 --- !u!1 &1255131957
 GameObject:
