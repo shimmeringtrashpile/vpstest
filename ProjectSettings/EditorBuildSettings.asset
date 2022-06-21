@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/vpstest.unity
     guid: dc673a5736c993f48835385cbc889def
+  - enabled: 1
+    path: Assets/Scenes/ImageDetection.unity
+    guid: dfc050e2cb7fe694c8d439fe889e938d
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de,
       type: 2}
