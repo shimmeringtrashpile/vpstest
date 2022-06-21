@@ -19,18 +19,20 @@ public class ImageDetection : MonoBehaviour
 {
 
     string jpegFilePath = Application.streamingAssetsPath + "grandcanyon.jpg";
+
     private IARSession _session;  // A session that is initialized elsewhere.
+
+    [SerializeField]
+    public IARWorldTrackingConfiguration worldTrackingConfiguration;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
-        StartCoroutine(RunSessionWithImageDetectionAsynchronously());
+        StartCoroutine(RunSessionWithImageDetectionAsynchronously(worldTrackingConfiguration));
     }
 
-    private IEnumerator RunSessionWithImageDetectionAsynchronously()
-    {
-        throw new NotImplementedException();
-    }
 
     // Update is called once per frame
     void Update()
